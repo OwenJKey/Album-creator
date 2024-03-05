@@ -1,8 +1,8 @@
  document.addEventListener("DOMContentLoaded", function() {
-            const form = document.getElementById('album-form');
-            const titleInput = document.getElementById('album-title-input');
-            const descriptionInput = document.getElementById('album-description-input');
-            const artInput = document.getElementById('album-art-input');
+            const form = document.querySelector('album-form');
+            const titleInput = document.querySelector('album-title-input');
+            const descriptionInput = document.querySelector('album-description-input');
+            const artInput = document.querySelector('album-art-input');
             
             form.addEventListener('submit', function(event) {
                 event.preventDefault();
